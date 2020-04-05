@@ -1,6 +1,6 @@
 @import "table-of-contents";
 /* import fonts */
-@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700");
 /* import style css */
 @import "common/reset";
 @import "common/helper";
@@ -376,7 +376,6 @@
       color: #f3f3f8;
       font-size: 20px;
       font-weight: 500;
-      line-height: 72px;
       padding-bottom: 44px;
       margin: 0;
       padding-top: 20px;
@@ -419,7 +418,7 @@
     h1{
       font-weight: 400;
       font-size: 50px;
-      line-height: 62px;
+      line-height: 0px;
       color: $pcolor;
       text-shadow: none;
       @include gradient;
@@ -427,7 +426,7 @@
       -webkit-text-fill-color: transparent;
     }
     .tagline{
-      line-height: 36px;
+      line-height: 0px;
       font-weight: 400;
       color: #6f7d8d;
     }

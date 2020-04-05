@@ -11,7 +11,7 @@
     <meta name="keywords" content="app, app landing, product landing, digital, material, html5">
 
 
-    <title>Racines</title>
+    <title>Martplace - Home</title>
 
     <!-- inject:css -->
     <link rel="stylesheet" href="css/animate.css">
@@ -30,41 +30,45 @@
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
 </head>
 
-<body class="home2 single-vendor">
+<body class="home3">
 
+    
     <!--================================
         START MENU AREA
     =================================-->
     <!-- start menu-area -->
     <div class="menu-area">
         <!-- start .top-menu-area -->
-        <div class="top-menu-area">
-            <!-- start .container -->
-            <div class="container">
-                <!-- start .row -->
-                <div class="row">
-                    <!-- start .col-md-3 -->
-                    <div class="col-lg-3 col-md-3 col-6 v_middle">
-                        <div class="logo">
-                            <a href="index.html">
-                                <h1 class="pcolor">RACINES</h1> 
-                            </a>
-                        </div>
-                    </div>
-                    <!-- end /.col-md-3 -->
 
-                    <!-- start .col-md-5 -->
-                    <div class="col-lg-8 offset-lg-1 col-md-9 col-6 v_middle">
-                        
-                    </div>
-                    <!-- end /.col-md-5 -->
-                </div>
-                <!-- end /.row -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a href="index.html" class="navbar-brand col-xl-2 col-6 col-md-6">
+                    <img src="images/logo.png" alt="logo image" class="img-fluid">
+                </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#vision">La vision</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#pratiques">Les bonnes pratiques</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#entreprises">Les entreprises</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#joinus">Entreprises : Rejoindre le mouvement</a>
+                  </li>
+              </ul>
             </div>
-            <!-- end /.container -->
-        </div>
+          </nav>
+
+       
         <!-- end  -->
 
+       
     </div>
     <!-- end /.menu-area -->
     <!--================================
@@ -74,13 +78,13 @@
     <!--================================
         START HERO AREA
     =================================-->
-    <section class="hero-area hero--1 bgimage">
+    <section class="hero-area hero--2 bgimage">
         <div class="bg_image_holder">
-            <img src="images/racines/bg.jpg" alt="">
-            RACINES
+            <img src="images/hero_area_bg3.jpg" alt="" class=".d-none .d-sm-block ">
         </div>
+
         <!-- start hero-content -->
-        <div class="hero-content content_above">
+        <div class="hero-content">
             <!-- start .contact_wrapper -->
             <div class="content-wrapper">
                 <!-- start .container -->
@@ -88,62 +92,69 @@
                     <!-- start row -->
                     <div class="row">
                         <!-- start col-md-12 -->
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <div class="hero__content__title">
-                                <h1>
-                                    <span class="bold">Racines, le réseau d’entreprises qui s’engagent</span>
-                                </h1>
-                                <p class="tagline">En période de crise sanitaire il est vital de nourrir et répondre aux besoins essentiels de toute la population et en particulier des professionnels d'astreinte et des publics en difficulté.</p>
+                                <div class="h2 font-weight-bold">
+                                    Consommez chez des producteurs locaux qui s’engagent pour votre sécurité sanitaire 
+                                </div>
+                                <p class="tagline">Racines est un réseau de producteurs, transformateurs, restaurateurs, et distributeurs martiniquais qui s'engagent sur des bonnes pratiques transparentes durant et après les crises sanitaires</p>
                             </div>
 
                             <!-- start .hero__btn-area-->
-                            <div >
-                                <div class="col-lg-8 offset-lg-2">
-                                    <div class="inline">
-                                        <a href="#" id="drop2" class="dropdown-toggle btn btn-md btn-warning" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                            Vous êtes un consommateur
-                                        </a>
+                            <div class="hero__btn-area">
+                                <div class="inline">
+                                    <a href="#" id="drop2" class="dropdown-toggle btn btn-md btn-warning" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Pour les consommateurs
+                                    </a>
 
-                                        <ul class="custom_dropdown messaging_dropdown dropdown-menu" aria-labelledby="drop2">
-                                            <li>
-                                                <a href="#">
-                                                    <span class="lnr lnr-inbox"></span>Paniers des produits frais et sains</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span class="lnr lnr-dice"></span>Alimentation générale & Produits de premières nécessités</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span class="fa fa-star-o"></span>Restauration, en livraison et à emporter</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="inline">
-                                        <a href="#" id="drop2" class="dropdown-toggle btn btn-md btn-info" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                            Vous êtes un professionnel 
-                                        </a>
+                                    <ul class="custom_dropdown messaging_dropdown dropdown-menu" aria-labelledby="drop2">
+                                        <li>
+                                            <a href="#pratiques">
+                                                <span class="lnr lnr-inbox"></span>Découvrir la démarche</a>
+                                        </li>
+                                        <li>
+                                            <a href="#entreprises">
+                                                <span class="lnr lnr-inbox"></span>Paniers des produits frais et sains</a>
+                                        </li>
+                                        <li>
+                                            <a href="#entreprises">
+                                                <span class="lnr lnr-dice"></span>Alimentation générale & Produits de premières nécessités</a>
+                                        </li>
+                                        <li>
+                                            <a href="#entreprises">
+                                                <span class="fa fa-star-o"></span>Restauration, en livraison et à emporter</a>
+                                        </li>
+                                    </ul>
+                                </div>                                
+                                <div class="inline">
+                                    <a href="#" id="drop2" class="dropdown-toggle btn btn-md btn-warning" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        Pour les entreprises
+                                    </a>
 
-                                        <ul class="custom_dropdown messaging_dropdown dropdown-menu" aria-labelledby="drop2">
-                                            <li>
-                                                <a href="#">
-                                                    <span class="lnr lnr-inbox"></span>Services de livraisons</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span class="fa fa-star-o"></span>Réservation et paiement en ligne</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span class="lnr lnr-dice"></span>Les bonnes pratiques sanitaires</a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span class="lnr lnr-dice"></span>Se digitaliser</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                            </div>
+                                    <ul class="custom_dropdown messaging_dropdown dropdown-menu" aria-labelledby="drop2">
+                                        <li>
+                                            <a href="#vision">
+                                                <span class="lnr lnr-inbox"></span>Découvrir la démarche</a>
+                                        </li>
+                                        <li>
+                                            <a href="#joinus">
+                                                <span class="fa fa-star-o"></span>Services de livraison</a>
+                                        </li>
+                                        <li>
+                                            <a href="#joinus">
+                                                <span class="fa fa-star-o"></span>Outils : Solutions de paiement à distance,...</a>
+                                        </li>
+                                        <li>
+                                            <a href="#joinus">
+                                                <span class="fa fa-star-o"></span>Marche à suivre pour afficher le logo Racines</a>
+                                        </li>
+                                    </ul>
+                                      
+                                    </ul>
+                                </div>                              </div>
+
+                          
+
                             <!-- end .hero__btn-area-->
                         </div>
                         <!-- end /.col-md-12 -->
@@ -156,10 +167,463 @@
         </div>
         <!-- end hero-content -->
 
+        <!--start search-area -->
+       
+        <!--start /.search-area -->
     </section>
     <!--================================
         END HERO AREA
     =================================-->
+
+    <!--================================
+        START FEATURED PRODUCT AREA
+    =================================-->
+    <section class="featured-products bgcolor2 section--padding">
+        <div class="container">
+            <div class="row">
+                <!-- start col-md-12 -->
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Notre
+                            <span class="highlighted" id="vision">vision</span>
+                        </h1>
+                        <p class="lead">Nourrir la Martinique en période de crise sanitaire demande des bonnes pratiques rigoureuses et nouvelles. Nous, membres de Racines, travaillons sans cesse à les améliorer, les afficher auprès du grand public mais aussi les faire appliquer par le plus grand nombre. Notre volonté est de réduire le risque et faire grandir la confiance dans nos activités essentielles, mais avant tout de rester en vie, tous ensemble.</p>
+                    </div>
+                </div>
+                <!-- end /.col-md-12 -->
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="featured-product-slider prod-slider2">
+                        <div class="featured__single-slider">
+                            <div class="featured__preview-img">
+                                <img src="images/focus1.png" alt="Featured products">
+                            </div>
+                            <!-- end /.featured__preview-img -->
+
+                            <div class="featured__product-description">
+                                <div class="product-desc desc--featured">
+                                    <a href="single-product.html" class="h4">
+                                        Faire de la livraison sans contact une réalité opérationnelle
+                                    </a>
+                                    <ul class="titlebtm">
+                                        <li>
+                                            <p>
+                                              Arnaud Biron - Noukarivé
+                                            </p>
+                                        </li>
+                                     
+                                    </ul>
+                                    <!-- end /.titlebtm -->
+
+                                    <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                                        mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra,
+                                        justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.</p>
+                                </div>
+                                <!-- end /.product-desc -->
+
+                            
+                            </div>
+                            <!-- end /.featured__product-description -->
+                        </div>
+                        <!--end /.featured__single-slider-->
+
+                        <div class="featured__single-slider">
+                            <div class="featured__preview-img">
+                                <img src="images/focus3.png" alt="Featured products">
+                            </div>
+                            <!-- end /.featured__preview-img -->
+
+                            <div class="featured__product-description">
+                                <div class="product-desc desc--featured">
+                                    <a href="single-product.html" class="h4">
+                                        Nous avons revu notre façon de faire la cuisine
+                                    </a>
+                                    <ul class="titlebtm">
+                                        <li>
+                                            <p>
+                                          Restaurateur 1 - Restaurant
+                                            </p>
+                                        </li>
+                                    
+                                    </ul>
+                                    <!-- end /.titlebtm -->
+
+                                    <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                                        mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra,
+                                        justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.</p>
+                                </div>
+                                <!-- end /.product-desc -->
+
+                               
+                            </div>
+                            <!-- end /.featured__product-description -->
+                        </div>
+                        <!--end /.featured__single-slider-->
+
+                        <div class="featured__single-slider">
+                            <div class="featured__preview-img">
+                                <img src="images/focus2.png" alt="Featured products">
+                            </div>
+                            <!-- end /.featured__preview-img -->
+
+                            <div class="featured__product-description">
+                                <div class="product-desc desc--featured">
+                                    <a href="single-product.html" class="product_title">
+                                        <h4>Travailler ensemble est devenu un impératif</h4>
+                                    </a>
+                                    <ul class="titlebtm">
+                                        <li>
+                                            <p>
+                                                Cédric Coleman - Petit cocotier
+                                            </p>
+                                        </li>
+                                     
+                                    </ul>
+                                    <!-- end /.titlebtm -->
+
+                                    <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the
+                                        mattis, leo quam aliquet congue placerat mi id nisi interdum mollis. Praesent pharetra,
+                                        justo ut scelerisque the mattis, leo quam aliquet congue justo ut scelerisque.</p>
+                                </div>
+                                <!-- end /.product-desc -->
+
+                             
+                            </div>
+                            <!-- end /.featured__product-description -->
+                        </div>
+                        <!--end /.featured__single-slider-->
+
+                        
+                        <!--end /.featured__single-slider-->
+                    </div>
+
+
+                    <span class="lnr lnr-chevron-left prod_slide_prev"></span>
+                    <span class="lnr lnr-chevron-right prod_slide_next"></span>
+                </div>
+            </div>
+            <!-- end /.featured__preview-img -->
+        </div>
+        <!-- end /.featured-product-slider -->
+    </section>
+    <!--================================
+        END FEATURED PRODUCT AREA
+    =================================-->
+
+    <!--================================
+        LES BONNES PRATIQUES
+    =================================-->
+    <section class="why_choose section--padding" id="pratiques">
+        <!-- start container -->
+        <div class="container">
+            <!-- start row -->
+            <div class="row">
+                <!-- start col-md-12 -->
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>Les bonnes
+                            <span class="highlighted">pratiques</span>
+                        </h1>
+                        <p>Rédigées par les acteurs qui les appliquent, challengés par la société civile, elles évoluent sans cesse pour couvrir toujours plus de risques.</p>
+                    </div>
+                </div>
+                <!-- end /.col-md-12 -->
+            </div>
+            <!-- end /.row -->
+
+            <!-- start row -->
+
+            <div class="h3 my-3">Production </div>
+            <div class="row">
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .reason -->
+                    <div class="feature2">
+                        <span class="feature2__count">01</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+                    
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">02</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">03</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">04</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">05</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">06</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+            </div>
+
+            <div class="h3 my-3">Livraison </div>
+            <div class="row">
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .reason -->
+                    <div class="feature2">
+                        <span class="feature2__count">01</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">02</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">03</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">04</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">05</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">06</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+            </div>
+
+            <div class="h3 my-3">Restauration </div>
+            <div class="row">
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .reason -->
+                    <div class="feature2">
+                        <span class="feature2__count">01</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">J'aménage une zone de récupération des commandes par les clients hors de ma salle, si possible, de type comptoir ou box. </h3>
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">02</span>
+                        <div class="feature2__content">
+                            <p>A emporter Sans contact </p>
+                            <h3 class="feature2-title">Je ne délivre jamais de plats de main à la main. Je pose, je recule, le client récupère.</h3>
+                           
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">03</span>
+                        <div class="feature2__content">
+                            <p>A emporter Sans contact </p>
+                            <h3 class="feature2-title">Je ne parle pas directement à mon client, autre que par des gestes. Je reste derrière le comptoir.</h3>
+                           
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">04</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">J'accepte les paiements en ligne par carte bancaire uniquement.</h3>
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">05</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .feature2 -->
+                    <div class="feature2">
+                        <span class="feature2__count">06</span>
+                        <div class="feature2__content">
+                            <h3 class="feature2-title">Je respecte cette règle qui reste à rédiger. Une bonne pratique simple et compréhensible.</h3>
+
+                        </div>
+                        <!-- end /.feature2__content -->
+                    </div>
+                    <!-- end /.feature2 -->
+                </div>
+                <!-- end /.col-md-4 -->
+            </div>
+
+           
+            <!-- end /.row -->
+        </div>
+        <!-- end /.container -->
+    </section>
+    <!--================================
+        END WHY CHOOSE US AREA
+    =================================-->
+
+
 
     <!--================================
         START PRODUCTS AREA
@@ -171,29 +635,29 @@
             <div class="row">
                 <!-- start col-md-12 -->
                 <div class="col-md-12">
-                    <div class="product-title-area">
+                    <div class="product-title-area" id="entreprises">
                         <div class="product__title">
-                            <a href="#">
-                                <h2>Ils s'engagent pour tous</h2>
-                            </a>
+                            <h2>Ces entreprises appliquent ces pratiques </h2>
                         </div>
 
+                    
                     </div>
                 </div>
                 <!-- end /.col-md-12 -->
             </div>
             <!-- end /.row -->
 
+            <!-- start .row -->
             <div class="row">
                 <!-- start .col-md-4 -->
                 <div class="col-lg-4 col-md-6">
                     <!-- start .single-product -->
-                    <div class="product product--card product--card2">
+                    <div class="product product--card product--card3">
 
                         <div class="product__thumbnail">
-                            <img src="images/p1.jpg" alt="Product Image">
+                            <img src="images/tipyekoko.jpeg" alt="Product Image">
                             <div class="prod_btn">
-                                <a href="single-product.html" class="transparent btn--sm btn--round">More Info</a>
+                                <a href="https://www.petitcocotier.fr/" class="transparent btn--sm btn--round">Commander</a>
                             </div>
                             <!-- end /.prod_btn -->
                         </div>
@@ -201,25 +665,40 @@
 
                         <div class="product-desc">
                             <a href="#" class="product_title">
-                                <h4>Partenaire 1</h4>
+                                <h4>Petit Cocotier</h4>
                             </a>
-
-                            <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
-                                leo quam aliquet congue.</p>
+                            <ul class="titlebtm">
+                                <li>
+                                    <p>
+                                        Production
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                       Livraison
+                                    </p>
+                                </li>
+                             
+                            </ul>
                         </div>
                         <!-- end /.product-desc -->
+
+                       
+                        <!-- end /.product-purchase -->
                     </div>
                     <!-- end /.single-product -->
                 </div>
                 <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
                 <div class="col-lg-4 col-md-6">
                     <!-- start .single-product -->
-                    <div class="product product--card product--card2">
+                    <div class="product product--card product--card3">
 
                         <div class="product__thumbnail">
-                            <img src="images/p1.jpg" alt="Product Image">
+                            <img src="images/herbo.png" alt="Product Image">
                             <div class="prod_btn">
-                                <a href="single-product.html" class="transparent btn--sm btn--round">Plus d'Infos</a>
+                                <a href="single-product.html" class="transparent btn--sm btn--round">Commander</a>
                             </div>
                             <!-- end /.prod_btn -->
                         </div>
@@ -227,51 +706,41 @@
 
                         <div class="product-desc">
                             <a href="#" class="product_title">
-                                <h4>Partenaire 1</h4>
+                                <h4>Herboristerie créole</h4>
                             </a>
-
-                            <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
-                                leo quam aliquet congue.</p>
+                            <ul class="titlebtm">
+                                <li>
+                                    <p>
+                                        Production
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                       Livraison
+                                    </p>
+                                </li>
+                             
+                            </ul>
                         </div>
                         <!-- end /.product-desc -->
+
+                       
+                        <!-- end /.product-purchase -->
                     </div>
                     <!-- end /.single-product -->
                 </div>
+                <!-- end /.col-md-4 -->
 
+                <!-- start .col-md-4 -->
                 <div class="col-lg-4 col-md-6">
                     <!-- start .single-product -->
-                    <div class="product product--card product--card2">
+                    <div class="product product--card product--card3">
 
                         <div class="product__thumbnail">
-                            <img src="images/p1.jpg" alt="Product Image">
-                            <div class="prod_btn">
-                                <a href="single-product.html" class="transparent btn--sm btn--round">Info</a>
-                            </div>
-                            <!-- end /.prod_btn -->
-                        </div>
-                        <!-- end /.product__thumbnail -->
-
-                        <div class="product-desc">
-                            <a href="#" class="product_title">
-                                <h4>Partenaire 2</h4>
-                            </a>
-
-                            <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
-                                leo quam aliquet congue.</p>
-                        </div>
-                        <!-- end /.product-desc -->
-                    </div>
-                    <!-- end /.single-product -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- start .single-product -->
-                    <div class="product product--card product--card2">
-
-                        <div class="product__thumbnail">
-                            <img src="images/p1.jpg" alt="Product Image">
+                            <img src="images/p3.jpg" alt="Product Image">
                             <div class="prod_btn">
                                 <a href="single-product.html" class="transparent btn--sm btn--round">More Info</a>
+                                <a href="single-product.html" class="transparent btn--sm btn--round">Live Demo</a>
                             </div>
                             <!-- end /.prod_btn -->
                         </div>
@@ -279,25 +748,35 @@
 
                         <div class="product-desc">
                             <a href="#" class="product_title">
-                                <h4>Partenaire 3</h4>
+                                <h4>Ileco Shop</h4>
                             </a>
-
-                            <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
-                                leo quam aliquet congue.</p>
+                            <ul class="titlebtm">
+                                <li>
+                                    <p>
+                                      Commande en ligne  Livraison
+                                    </p>
+                                </li>
+                              
+                            </ul>
                         </div>
                         <!-- end /.product-desc -->
+
+                    
+                        <!-- end /.product-purchase -->
                     </div>
                     <!-- end /.single-product -->
                 </div>
+                <!-- end /.col-md-4 -->
 
+                <!-- start .col-md-4 -->
                 <div class="col-lg-4 col-md-6">
                     <!-- start .single-product -->
-                    <div class="product product--card product--card2">
+                    <div class="product product--card product--card3">
 
                         <div class="product__thumbnail">
-                            <img src="images/p1.jpg" alt="Product Image">
+                            <img src="images/p4.jpg" alt="Product Image">
                             <div class="prod_btn">
-                                <a href="single-product.html" class="transparent btn--sm btn--round">More Info</a>
+                                <a href="single-product.html" class="transparent btn--sm btn--round">Commander</a>
                             </div>
                             <!-- end /.prod_btn -->
                         </div>
@@ -305,25 +784,35 @@
 
                         <div class="product-desc">
                             <a href="#" class="product_title">
-                                <h4>Partenaire 4</h4>
+                                <h4>Noukarivé</h4>
                             </a>
-
-                            <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
-                                leo quam aliquet congue.</p>
+                            <ul class="titlebtm">
+                                <li>
+                                    <p>
+                                       Livraison
+                                    </p>
+                                </li>
+                              
+                            </ul>
                         </div>
                         <!-- end /.product-desc -->
+
+                      
+                        <!-- end /.product-purchase -->
                     </div>
                     <!-- end /.single-product -->
                 </div>
+                <!-- end /.col-md-4 -->
 
+                <!-- start .col-md-4 -->
                 <div class="col-lg-4 col-md-6">
                     <!-- start .single-product -->
-                    <div class="product product--card product--card2">
+                    <div class="product product--card product--card3">
 
                         <div class="product__thumbnail">
-                            <img src="images/p1.jpg" alt="Product Image">
+                            <img src="images/p5.jpg" alt="Product Image">
                             <div class="prod_btn">
-                                <a href="single-product.html" class="transparent btn--sm btn--round">More Info</a>
+                                <a href="single-product.html" class="transparent btn--sm btn--round">Commander</a>
                             </div>
                             <!-- end /.prod_btn -->
                         </div>
@@ -331,19 +820,63 @@
 
                         <div class="product-desc">
                             <a href="#" class="product_title">
-                                <h4>Partenaire 5</h4>
+                                <h4>xxx</h4>
                             </a>
-
-                            <p>Nunc placerat mi id nisi interdum mollis. Praesent pharetra, justo ut scelerisque the mattis,
-                                leo quam aliquet congue.</p>
+                            <ul class="titlebtm">
+                                <li>
+                                    <p>
+                                       Restaurateur
+                                    </p>
+                                </li>
+                              
+                            </ul>
                         </div>
                         <!-- end /.product-desc -->
+
+                      
+                        <!-- end /.product-purchase -->
                     </div>
                     <!-- end /.single-product -->
                 </div>
-                
+                <!-- end /.col-md-4 -->
+
+                <!-- start .col-md-4 -->
+                <div class="col-lg-4 col-md-6">
+                    <!-- start .single-product -->
+                    <div class="product product--card product--card3">
+
+                        <div class="product__thumbnail">
+                            <img src="images/p6.jpg" alt="Product Image">
+                            <div class="prod_btn">
+                                <a href="single-product.html" class="transparent btn--sm btn--round">Commander</a>
+                            </div>
+                            <!-- end /.prod_btn -->
+                        </div>
+                        <!-- end /.product__thumbnail -->
+
+                        <div class="product-desc">
+                            <a href="#" class="product_title">
+                                <h4>xxx</h4>
+                            </a>
+                            <ul class="titlebtm">
+                                <li>
+                                    <p>
+                                        Producteur
+                                    </p>
+                                </li>
+                             
+                            </ul>
+                        </div>
+                        <!-- end /.product-desc -->
+
+                       
+                    </div>
+                    <!-- end /.single-product -->
+                </div>
+                <!-- end /.col-md-4 -->
             </div>
-            <!-- end /.row -->
+
+       
         </div>
         <!-- end /.container -->
     </section>
@@ -356,15 +889,15 @@
     =================================-->
     <section class="call-to-action bgimage">
         <div class="bg_image_holder">
-            <img src="images/racines/bg_racine_igname.jpg" alt="">
+            <img src="images/calltobg.jpg" alt="">
         </div>
-        <div class="container content_above">
+        <div class="container content_above" id="joinus">
             <div class="row">
                 <div class="col-md-12">
                     <div class="call-to-wrap">
-                        <h1 class="text--white">✊🏽 Et rejoindre le réseau Racines</h1>
-                        <h4 class="text--white">Plus de X entreprises ont rejoint le mouvement.</h4>
-                        <a href="#" class="btn btn--lg btn--success callto-action-btn">Rejoindre le mouvement</a>
+                        <h1 class="text--white">Entreprises : Rejoignez le mouvement</h1>
+                        <h4 class="text--white">En vous inscrivant vous recevrez une liste d'outils, de ressources et de contacts pour vous aider à devenir Racines.</h4>
+                        <a href="https://earthstudio.typeform.com/to/CsV6kz" class="btn btn--lg btn--round btn--white callto-action-btn">Commencer</a>
                     </div>
                 </div>
             </div>
@@ -378,14 +911,15 @@
         START FOOTER AREA
     =================================-->
     <footer class="footer-area">
+       
+
         <div class="mini-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="copyright-text">
-                            <p>&copy; 2020
-                                <a href="#">Racines</a>. All rights reserved. Created by
-                                <a href="#">JI</a>
+                            <p>
+                                <a href="#">Racines : une initiative citoyenne entrepreunariale martiniquaise.</a>. 
                             </p>
                         </div>
 
